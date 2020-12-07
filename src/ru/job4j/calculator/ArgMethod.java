@@ -10,7 +10,7 @@ public class ArgMethod {
         String name = "Ruslan Krasnov";
         int age = 26;
 
-        ArgMethod.hello(name);
+        ArgMethod.hello(name); /*Вызов метода ArgMethod*/
 
     }
 }
