@@ -20,16 +20,16 @@ public class Converter {
 
             //Тест для программы//
 
-            int in_e = 140; //Входное значение//
-            int expected_e = 2; //Ожидаемое значение//
-            int out_e = Converter.rubleToEuro(in_e); //Результат работы программы//
-            boolean passed_e = expected_e == out_e; //Результат сравнения переменных expected_e и out_e//
-            System.out.println("140 rubles are 2 euro. Test result : " + passed_e);
+            int inE = 140; //Входное значение//
+            int expectedE = 2; //Ожидаемое значение//
+            int outE = Converter.rubleToEuro(inE); //Результат работы программы//
+            boolean passedE = expectedE == outE; //Результат сравнения переменных expected_e и out_e//
+            System.out.println("140 rubles are 2 euro. Test result : " + passedE);
 
-            int in_d = 200;
-            int expected_d = 3;
-            int out_d = Converter.rubleToDollar(in_d);
-            boolean passed_d = expected_d == out_d;
-            System.out.println("200 rubles are 3 dollar. Test result : " + passed_d);
+            int inD = 200;
+            int expectedD = 3;
+            int outD = Converter.rubleToDollar(inD);
+            boolean passedD = expectedD == outD;
+            System.out.println("200 rubles are 3 dollar. Test result : " + passedD);
         }
     }
