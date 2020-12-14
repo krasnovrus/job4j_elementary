@@ -1,12 +1,10 @@
-package ru.job4j.condition;
+package ru.job4j.calculator;
 
-public class Triangle {
+
+public class Test {
 
     public static boolean exist(double ab, double ac, double bc) {
-        boolean first = ab + ac > bc;
-        boolean second = ac + bc > ab;
-        boolean third = ab + bc > ac;
-        if (first && second && third) {
+        if (ab + ac > bc && ac + bc > ab && ab + bc > ac) {
             return true;
         } else {
             return false;
