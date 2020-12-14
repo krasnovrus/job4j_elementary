@@ -11,11 +11,11 @@ public class Triangle {
         } else {
             return false;
         }
-        }
+    }
 
-        public static void main (String[] args) {
-            System.out.println(exist(2.0, 2.0, 2.0));
-            System.out.println(exist(10.0, 10.0, 22.0));
+    public static void main (String[] args) {
+        System.out.println(exist(2.0, 2.0, 2.0));
+        System.out.println(exist(10.0, 10.0, 22.0));
     }
-    }
+}
 
