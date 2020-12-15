@@ -14,5 +14,3 @@ public class ChessBoard {
             System.out.println(way(6, 7, 1, 2));
         }
     }
-
-//rsl = rsl == 0 ? Math.abs(y2 - y1) : rsl;
