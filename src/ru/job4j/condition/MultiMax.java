@@ -18,7 +18,6 @@ public class MultiMax {
     public static void main (String[] args) {
         System.out.println(max(22,13,14));
         System.out.println(max(12,23,11));
-        System.out.println(max(12,23,34));
-        System.out.println(max(12,12,12));
+
     }
 }
