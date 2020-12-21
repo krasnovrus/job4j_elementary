@@ -10,6 +10,6 @@ public class ChessBoard {
         }
 
         public static void main (String[]args){
-            System.out.println(way(6, 7, 1, 2));
+           way (6, 7, 1, 2);
         }
     }
