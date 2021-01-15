@@ -26,13 +26,13 @@ public class FindLoopTest {
         assertThat(result, is(expect));
     }
     @Test
-    public void whenFind7() {
+    public void whenFind12() {
         int[] input = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int value = 7;
+        int value = 12;
         int start = 3;
         int finish = 9;
         int result = FindLoop.indexOfRange(input, value, start, finish);
-        int expect = 6;
+        int expect = -1;
         assertThat(result, is(expect));
     }
 }
