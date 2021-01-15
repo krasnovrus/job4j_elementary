@@ -15,7 +15,9 @@ package ru.job4j.array;
 
 
         public static void main(String[] args) {
-
+            boolean[] nums = new boolean[] {true, true, true, true, true, true, true, true, true};
+            boolean rsl = mono(nums);
+            System.out.println(rsl);
         }
     }
 
