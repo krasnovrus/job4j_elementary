@@ -13,7 +13,7 @@ public class FindLoop {
     }
     public static int indexOfRange(int[] data, int el, int start, int finish) {
         int rsl = -1; /* если элемента нет в массиве, то возвращаем -1, если есть, то индекс */
-        for (int index = start; index < finish; index++) {
+        for (int index = start; index <= finish; index++) {
             if (data[index] == el) {
                 rsl = index;
                 break;
