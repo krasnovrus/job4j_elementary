@@ -29,16 +29,28 @@ public class MatrixCheck {
             rsl[index] = board[index][index];
         }
         return rsl;
+    }
 
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        for (int index = 0; index < board.length; index++) {
+            if (monoHorizontal(board, index) || monoVertical(board, index)) {
+                result = true;
+                break;
+            }
+        }
+        return result;
     }
 
     public static void main(String[] args) {
     char[][] num = new char[][] {
-            {'5', '3', '4'},
-            {'t', '4', 't'},
-            {'r', 'X', ';'}
+            {' ', ' ', 'X', ' ', ' '},
+            {' ', ' ', 'X', ' ', ' '},
+            {' ', ' ', 'X', ' ', ' '},
+            {' ', ' ', 'X', ' ', ' '},
+            {' ', ' ', 'X', ' ', ' '}
         };
-        char[] rsl = extractDiagonal(num);
+        boolean rsl = isWin(num);
         System.out.println(rsl);
     }
 }
